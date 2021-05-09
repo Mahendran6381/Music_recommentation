@@ -1,7 +1,7 @@
 var ID;
 
 $("#happy").click(function(e){
-      ID = 'happy songs'
+      ID = 'feel happpy'
   });
 $("#love").click(function(){
     ID = 'Lovesongs hollywood'
@@ -10,7 +10,7 @@ $("#angry").click(function(){
     ID ='Angry management'
   });
 $("#nothing").click(function(){
-   ID ='Motivated songs'
+   ID ='Motivate'
   });
   var car;
 
