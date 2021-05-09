@@ -1,0 +1,23 @@
+body{
+    margin: 30px;
+    place-items: center;
+    place-content: center;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(120deg,rgb(236, 194, 10),rgb(255, 153, 0));
+}
+.main{
+    display: grid;
+    grid-gap: 5px;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(2,100px);
+    
+}
+.vid-grid{
+    display: grid;
+    background-color: red;
+    margin-top: 30px;
+    grid-template-columns: repeat(2);
+    grid-gap: 20px;
+}
